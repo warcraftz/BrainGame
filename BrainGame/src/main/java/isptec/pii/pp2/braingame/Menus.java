@@ -19,6 +19,9 @@ public class Menus {
                     case 1:
                         Jogador.arrayListLocalSevedPlayer();
                         break;
+                    case 2:
+                        Administrador.Perguntas();
+                        break;
                 }
                 break;
                 
