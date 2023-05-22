@@ -22,19 +22,32 @@ public class Menus {
                     case 2:
                         Administrador.main();
                         break;
+                    case 3:
+                        System.out.println("[1] - JOGAR");
+                        System.out.println("[2] - AJUDA");
+                        System.out.println("[3] - PONTUAÇÃO");
+                        System.out.println("[4] - PÓDIO");
+                        System.out.print("\n[<-: ");
+                        op = sc.nextInt();
+                        
+                        switch(op){
+                            case 1:
+                                // Task to
+                                break;
+                            case 2:
+                                // Task to
+                                break;
+                            case 3:
+                                // Task to
+                                break;
+                            case 4:
+                                // Task to
+                                break;
+                            default: System.out.println("\nOpção inválida!");break;
+                        }
+                        break;
+                    default: System.out.println("\nOpção inválida!");
                 }
-                break;
-                
-            /* ====================== [DIVIDER] ====================== */
-                
-            case 2: // Menu Secundario
-                System.out.println("[1] - INICIAR JOGO");
-                System.out.println("[2] - AJUDA");
-                System.out.println("[3] - PONTUAÇÃO");
-                System.out.println("[4] - PÓDIO");
-                System.out.print("\n[<-: ");
-                op = sc.nextInt();
-                break;
         }
     }
 }
