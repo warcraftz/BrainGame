@@ -23,7 +23,7 @@ class Jogador {
     // server jodadores registrados [!]
     public static void arrayListLocalSevedPlayer () {
         try (Scanner sc = new Scanner(System.in)) {
-            ArrayList <Jogador> ListDeJogador = new ArrayList<>();
+            ArrayList <Jogador> ListaDeJogador = new ArrayList<>();
             System.out.println("[Message] Digite 'sair' para parar\n\n");
 
             while(true){
@@ -47,7 +47,7 @@ class Jogador {
                 int mes = sc.nextInt();
                 int ano = sc.nextInt();
 
-                ListDeJogador.add(new Jogador(username, idade, mes, ano));
+                ListaDeJogador.add(new Jogador(username, idade, mes, ano));
             }
         }
     }

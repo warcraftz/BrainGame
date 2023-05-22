@@ -20,7 +20,7 @@ public class Menus {
                         Jogador.arrayListLocalSevedPlayer();
                         break;
                     case 2:
-                        Administrador.Perguntas();
+                        Administrador.main();
                         break;
                 }
                 break;
