@@ -46,7 +46,7 @@ class Jogador {
                 int idade = sc.nextInt();
                 int mes = sc.nextInt();
                 int ano = sc.nextInt();
-
+                
                 ListaDeJogador.add(new Jogador(username, idade, mes, ano));
             }
         }

@@ -70,10 +70,10 @@ public class Administrador {
         int op;
         
         do{
-            System.out.println("\n--- Menu ---");
-            System.out.println("1. Configurar perguntas");
-            System.out.println("2. Imprimir perguntas cadastradas");
-            System.out.println("3. Sair");
+            System.out.println("\n--- MENU ADMINISTRADOR ---");
+            System.out.println("[1] - CONFIGURAR PERGUNTAS");
+            System.out.println("[2] - IMPRIMIR PERGUNTAS CADASTRADAS");
+            System.out.println("[3] - SAIR");
             System.out.print("[<-: ");
             op = sc.nextInt();
             sc.nextLine();
@@ -87,6 +87,7 @@ public class Administrador {
                     break;
                 case 3:
                     System.out.println("Saindo...");
+                    Menus.showMenu(1);
                     break;
                 default: System.out.println("Opção inválida!");
             }
