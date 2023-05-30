@@ -9,7 +9,9 @@ public class Jogar {
     public static void gerardorDePerguntas() {}
     
     public static void iniciarJogo() {
-        System.out.printf("\n[Jogador: %s]      [Ponto(s): %d]        [Nível: %d | 6]\n");
-        System.out.print("---------------------------------------------------------------");
+        System.out.printf("\n[Jogador: username]      [Ponto(s): 5]        [Nível: 1 | 6]\n");
+        System.out.print("--------------------------------------------------------------------");
+        System.out.println("");
+        
     }
 }
